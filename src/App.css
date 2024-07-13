@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Gotham";
+    src: url("/fonts/Gotham\ Rounded\ Light.otf");
+}
+
+@font-face {
+    font-family: "Gotham-Bold";
+    src: url("/fonts/Gotham\ Rounded\ Bold.otf");
+}

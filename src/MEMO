@@ -1,0 +1,2 @@
+On load when i refresh the page and switch to an artist or playlist page i'll get an axios error stating that the token is invalid.
+This is because the headers in the axiosHeader.js in am using are not updating (they'll took the token from the local storage on load , which is when it is still null)
